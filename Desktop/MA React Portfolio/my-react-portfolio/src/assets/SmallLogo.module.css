@@ -1,0 +1,21 @@
+.center {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.sub-header {
+    animation: fade 1s ease-in-out;
+    transition: all;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+
+}

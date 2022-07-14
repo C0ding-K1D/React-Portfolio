@@ -1,0 +1,79 @@
+.container {
+    margin-bottom: 20rem;
+}
+
+.heading-primary {
+    font-family: 'ARUAL';
+    font-size: 2.4rem;
+    margin-top:15rem;
+    margin-left: 3rem;
+    text-align: center;
+    color:#4b5c8e;
+}
+
+footer {
+    position: relative;
+    bottom:0;
+    margin-bottom:-20rem;
+}
+.grid-container{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    background:#4b5c8e;
+    width:100vw;
+    height: 21rem;
+}
+
+nav {
+    margin-left:-3rem;
+    margin-right:3rem;
+}
+.line {
+    margin-left:6rem;
+    margin-right: 3.8rem;
+    margin-top:14rem;
+}
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+li{
+    color:#fff;
+    font-size: 1.2rem;
+    font-family: 'ARUAL';
+}
+
+.copyright {
+    margin-right: -2rem;
+    display: flex;
+}
+
+p{
+    color:#fff;
+    font-size: 1.2rem;
+    font-family: 'ARUAL';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 5rem 2rem;
+}
+
+.icons {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -10%);
+    font-size:2rem;
+    color:#fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+footer i {
+    margin-left: .5rem;
+    margin-right: .5rem;
+    margin-bottom: 3rem
+}
