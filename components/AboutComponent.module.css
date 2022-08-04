@@ -1,0 +1,65 @@
+.heading-primary {
+    font-family: 'ARUAL';
+    font-size: 2.4rem;
+    margin-top: 15rem;
+    text-align: center;
+    color: #333;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background: #333;
+    width: 100vw;
+}
+
+nav {
+    margin-left: -3rem;
+    margin-right: 3rem;
+}
+
+.line {
+    margin-left: 6rem;
+    margin-right: 3.8rem;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+li {
+    color: #fff;
+    font-size: 1.2rem;
+    font-family: 'ARUAL';
+}
+
+.copyright {
+    margin-right: -2rem;
+    display: flex;
+}
+
+p {
+    color: #fff;
+    font-size: 1.2rem;
+    font-family: 'ARUAL';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons {
+    font-size: 2rem;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer i {
+    margin-left: .5rem;
+    margin-right: .5rem;
+    margin-bottom: 3rem
+}

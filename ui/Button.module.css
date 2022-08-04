@@ -1,0 +1,6 @@
+.btn {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 6rem 0 6rem 0;
+}

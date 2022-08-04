@@ -1,0 +1,117 @@
+.header {
+    z-index: 99;
+}
+
+.logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.sub-header {
+    animation: fade 4s ease-in-out;
+    transition: all;
+}
+
+.test {
+    font-family: 'ARUAL';
+}
+
+.heading-primary {
+    font-family: 'ARUAL';
+    font-size: 2.4rem;
+    /* margin-top: 15rem; */
+    text-align: center;
+    color: #333;
+}
+
+.btn {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 6rem 0 6rem 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background: #333;
+    width: 100vw;
+}
+
+.text-container {
+    max-width: 120rem;
+    margin-bottom: 10rem;
+}
+
+.paragraph {
+    font-size: 2.4rem;
+    font-family: monospace;
+    color: #333;
+    text-align: center;
+}
+
+nav {
+    margin-left: -3rem;
+    margin-right: 3rem;
+}
+
+.line {
+    margin-left: 6rem;
+    margin-right: 3.8rem;
+    /* margin-top: -10rem; */
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+li {
+    color: #fff;
+    font-size: 1.2rem;
+    font-family: 'ARUAL';
+}
+
+.copyright {
+    margin-right: -2rem;
+    display: flex;
+}
+
+p {
+    color: #fff;
+    font-size: 1.2rem;
+    font-family: 'ARUAL';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons {
+    font-size: 2rem;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 5rem; */
+}
+
+footer i {
+    margin-left: .5rem;
+    margin-right: .5rem;
+    /* margin-bottom: 3rem */
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+
+}

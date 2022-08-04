@@ -1,0 +1,109 @@
+.container {
+    background: lightblue;
+    cursor: url('https://uploads.codesandbox.io/uploads/user/b3e56831-8b98-4fee-b941-0e27f39883ab/Ad1_-cursor.png') 39 39,
+        auto;
+}
+
+.heading-primary {
+    font-family: 'ARUAL';
+    font-size: 2.4rem;
+    margin-top: 15rem;
+    text-align: center;
+    color: #333;
+}
+
+.deck {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    will-change: transform;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.deck>div {
+    touch-action: none;
+    background-color: white;
+    background-size: auto 85%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 45vh;
+    max-width: 300px;
+    height: 85vh;
+    max-height: 570px;
+    will-change: transform;
+    border-radius: 10px;
+    box-shadow: 0 12.5px 100px -10px rgba(50, 50, 73, 0.4), 0 10px 10px -10px rgba(50, 50, 73, 0.3);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.btnLeft {
+    margin-bottom: 4rem;
+    margin-right: .5rem;
+}
+
+.btnRight {
+    margin-bottom: 4rem;
+    margin-left: .5rem;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background: #333;
+    width: 100vw;
+}
+
+nav {
+    margin-left: -3rem;
+    margin-right: 3rem;
+}
+
+.line {
+    margin-left: 6rem;
+    margin-right: 3.8rem;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+li {
+    color: #fff;
+    font-size: 1.2rem;
+    font-family: 'ARUAL';
+}
+
+.copyright {
+    margin-right: -2rem;
+    display: flex;
+}
+
+p {
+    color: #fff;
+    font-size: 1.2rem;
+    font-family: 'ARUAL';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons {
+    font-size: 2rem;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer i {
+    margin-left: .5rem;
+    margin-right: .5rem;
+    margin-bottom: 3rem
+}
