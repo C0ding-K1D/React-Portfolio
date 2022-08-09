@@ -26,13 +26,6 @@
     color: #333;
 }
 
-.btn {
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    margin: 6rem 0 6rem 0;
-}
-
 .container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -41,12 +34,13 @@
 }
 
 .text-container {
-    max-width: 120rem;
+    max-width: 100rem;
     margin-bottom: 10rem;
+    padding: 5rem;
 }
 
 .paragraph {
-    font-size: 2.4rem;
+    font-size: 1.4rem;
     font-family: monospace;
     color: #333;
     text-align: center;

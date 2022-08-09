@@ -1,5 +1,6 @@
 .navigation-checkbox {
     display: none;
+
 }
 
 .navigation-checkbox:checked~.navigation-background {
@@ -9,10 +10,11 @@
 .navigation-checkbox:checked~.navigation-nav {
     opacity: 1;
     width: 100%;
+    pointer-events: all;
 }
 
 .navigation-button {
-    background-color: #fff;
+    background-color: rgb(234, 234, 234);
     height: 4rem;
     width: 4rem;
     position: fixed;
@@ -20,7 +22,7 @@
     right: 4rem;
     border-radius: 50%;
     z-index: 2000;
-    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.3);
     text-align: center;
     cursor: pointer;
 }
@@ -49,7 +51,7 @@
     opacity: 0;
     width: 0;
     transition: all 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-
+    pointer-events: none;
 }
 
 .nav-list {

@@ -75,7 +75,7 @@ const HomeComponent = () => {
           </svg>
         </header>
       </div>
-      <Button>Resume</Button>
+      <Button>cv / Resume</Button>
       <div>
         <h1 className={classes["heading-primary"]}>WELCOME</h1>
         <div className={classes["text-container"]}>

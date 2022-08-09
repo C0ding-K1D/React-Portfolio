@@ -1,3 +1,7 @@
+.main-container {
+    margin-bottom: 8rem;
+}
+
 .container {
     background: lightblue;
     cursor: url('https://uploads.codesandbox.io/uploads/user/b3e56831-8b98-4fee-b941-0e27f39883ab/Ad1_-cursor.png') 39 39,
@@ -43,11 +47,27 @@
 .btnLeft {
     margin-bottom: 4rem;
     margin-right: .5rem;
+    font-family: 'ARUAL';
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: .7rem 1.6rem .7rem 1.6rem;
+    border-radius: 100px;
+    background-color: #7fa9c0;
+    color: #333;
+    border: none;
 }
 
 .btnRight {
     margin-bottom: 4rem;
     margin-left: .5rem;
+    font-family: 'ARUAL';
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: .7rem 1.5rem .7rem 1.5rem;
+    border-radius: 100px;
+    background-color: #7fa9c0;
+    color: #333;
+    border: none;
 }
 
 .grid-container {

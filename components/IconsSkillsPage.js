@@ -36,6 +36,32 @@ const IconsSkillsPage = () => {
           <SassIcon />
         </section>
       </div>
+      <div className={classes["skills-container"]}>
+        <div>
+          <h2 className={classes["section-heading"]}>nucamp</h2>
+          <hr />
+          <p>html</p>
+          <p>bootstrap</p>
+          <p>css</p>
+          <p>js</p>
+        </div>
+        <div>
+          <h2 className={classes["section-heading"]}>freecodecamp</h2>
+          <hr />
+          <p>html</p>
+          <p>bootstrap</p>
+          <p>css</p>
+          <p>js</p>
+        </div>
+        <div>
+          <h2 className={classes["section-heading"]}>udemy</h2>
+          <hr />
+          <p>html</p>
+          <p>bootstrap</p>
+          <p>css</p>
+          <p>js</p>
+        </div>
+      </div>
       <footer>
         <SecondaryLogo className={classes.align} />
         <div className={classes.icons}>

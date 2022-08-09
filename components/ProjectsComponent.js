@@ -88,6 +88,7 @@ function ProjectsComponent() {
           backgroundSize: "cover",
           height: "100vh",
         }}
+        className={classes["main-container"]}
       >
         <Header />
         <SmallLogo />
@@ -102,7 +103,7 @@ function ProjectsComponent() {
                   backgroundImage: cards[i],
                 }}
               >
-                <button className={classes.btnLeft}>Link</button>
+                <button className={classes.btnLeft}>test</button>
                 <button className={classes.btnRight}>Code</button>
               </animated.div>
             </animated.div>
